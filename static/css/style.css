@@ -1,0 +1,25 @@
+/* Style for "HomeServices" */
+#home-services {
+    font-size: 2rem;
+    color: white;
+    text-align: center;
+    transition: color 0.3s ease, transform 0.3s ease;
+}
+
+#home-services:hover {
+    color: #ff6347;
+    transform: scale(1.2);
+}
+
+/* Style for the "Logout" link */
+#logout-link {
+    font-size: 1.2rem;
+    color: rgb(151, 151, 151);
+    font-weight: bold;
+    transition: transform 0.3s ease, color 0.3s ease;
+}
+
+#logout-link:hover {
+    transform: scale(1.2);
+    color: darkred;
+}
